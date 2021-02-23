@@ -65,7 +65,7 @@ You will need to create all the project files for this lab, but you can copy thi
                 <input type="Submit" value="Create a Repo"/>
             </form>
         </div>
-        <div id="delete-rep" class="third">
+        <div id="delete-repo" class="third">
             <form>
                 <input type="text" placeholder="Name of repo to delete"/>
                 <br>
