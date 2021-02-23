@@ -14,7 +14,7 @@ For scopes/permissions, you should grant this token `repo`, `user`, and `delete_
 
 If you make a mistake, you can always delete the token you created and create a new one. Once you have successfully created your token, copy and paste it somewhere aside. You will need it later.
 
-You can read about [Github Authorization](https://docs.github.com/en/rest/guides/getting-started-with-the-rest-api#repositories) here. Your personal access token will be used in an `Authorization` header with a value of `token <ACCESS_TOKEN>`.
+You can read about [Github Authorization](https://docs.github.com/en/rest/guides/getting-started-with-the-rest-api#repositories) here. Your personal access token will be used in an `Authorization` header with a value of `token <ACCESS_TOKEN>`. Here is an example `cURL` command:
 
 ```shell
 $ curl -i -H "Authorization: token 5199831f4dd3b79e7c5b7e0ebe75d67aa66e79d4" \
@@ -107,7 +107,7 @@ The user should be able to create a new repo by filling out the Repo's name and 
 
 ![delete](./assets/delete.gif)
 
-The user should be able to delete one of their repos by filling out the last form. If the API is unable to delete the repo, the user should see an `alert` error message.  If the API successfully deletes the repo, the use should still see an `alert` message that tells them the repo has been deleted. If the user goes to Github, the delete repo should no longer exists. Finally, the `li` for the deleted repo should be removed from the DOM **without having to refresh the page**. Read the documentation on [Delete a repository](https://docs.github.com/en/rest/reference/repos#delete-a-repository). You will need to make a `DELETE` fetch with a header of `{"Authorization": "token <ACCESS TOKEN>"}`. 
+The user should be able to delete one of their repos by filling out the last form. If the API is unable to delete the repo, the user should see an [`alert`](https://developer.mozilla.org/en-US/docs/Web/API/Window/alert) error message.  If the API successfully deletes the repo, the use should still see an [`alert`](https://developer.mozilla.org/en-US/docs/Web/API/Window/alert) message that tells them the repo has been deleted. If the user goes to Github, the delete repo should no longer exists. Finally, the `li` for the deleted repo should be removed from the DOM **without having to refresh the page**. Read the documentation on [Delete a repository](https://docs.github.com/en/rest/reference/repos#delete-a-repository). You will need to make a `DELETE` fetch with a header of `{"Authorization": "token <ACCESS TOKEN>"}`. 
 
 ## Clean Up
 
