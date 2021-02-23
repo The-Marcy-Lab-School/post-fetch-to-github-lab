@@ -111,6 +111,6 @@ The user should be able to delete one of their repos by filling out the last for
 
 ## Clean Up
 
-As a safety precaution, you should going into you developer settings and delete the Personal Access Token you created for this lab. Commit and push your your finished code. 
+As a safety precaution, you should going into you developer settings and delete the Personal Access Token you created for this lab. Commit and push your your finished code. In addition, make sure you delete any emtpy repositories you've created as part of this lab.
 
 
