@@ -23,7 +23,7 @@ $ curl -i -H "Authorization: token 5199831f4dd3b79e7c5b7e0ebe75d67aa66e79d4" \
 
 ## Starter code
 
-You will need to create all the project files for this lab, but you can copy this code as a starting point. You can (and should) add `id`s where you see fit to make selecting elements easier.
+You will need to create all the project files for this lab, but you can copy this code as a starting point for the files or components you create. You can (and should) add `id`s where you see fit to make selecting elements easier.
 
 ```html
 <!DOCTYPE html>
