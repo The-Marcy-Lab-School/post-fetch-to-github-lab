@@ -103,7 +103,7 @@ Once the `#options` div is displayed. Clicking on the `Get My Repos` button shou
 The user should be able to create a new repo by filling out the Repo's name and description. When they submit the form, this new repo should exist on Github and the repo's name should appear at the top of your web app's unordered list **without having to refresh the page**. Read the documentation on [Create a repository for the authenticated user](https://docs.github.com/en/rest/reference/repos#create-a-repository-for-the-authenticated-user
 ). You will need to make a `POST` fetch with a header of `{"Authorization": "token <ACCESS TOKEN>"}`. 
 
-## Feature 4: Deleting a Repo
+## Bonus Feature: Deleting a Repo
 
 ![delete](./assets/delete.gif)
 
