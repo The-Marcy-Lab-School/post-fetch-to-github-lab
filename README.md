@@ -1,5 +1,5 @@
 # Fetch Post Lab: Github API
-You will be creating a front-end web app that allows the user to interface with Github. If a user gives your app their Github personal access token, they'll be able to see, create, and delete their repositories. Here is a demo of the app:
+You will be creating a front-end web app that allows the user to interface with their Github account. If a user gives your app their Github personal access token, they'll be able to see, create, and delete their repositories. Here is a demo of the app:
 
 ![demo](./assets/app.gif)
 
