@@ -83,7 +83,7 @@ You will need to create all the project files for this lab, but you can copy thi
 
 Initially, the `#options` div is not displayed when the page loads. Your user should be able to enter their Github access token. When they submit the form, three things should happen:
 
-1. The form dissapears.
+1. The form disappears.
 2. The `#options` div should be displayed on the DOM.
 3. The access token and username should be displayed on the DOM.
 
